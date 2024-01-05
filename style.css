@@ -1,0 +1,54 @@
+.jumbotron {
+  text-align: center;
+  background: none;
+}
+.sectionLight {
+  background-color: #edeeef;
+  padding: 2em;
+}
+.sectionDark {
+  background-color: #cccccc;
+  padding: 2em;
+}
+.row2 {
+  margin-left: 0;
+}
+.wraper {
+  margin-top: 20px;
+}
+button.btnMain {
+  background-color: darkgray;
+  color: black;
+  display: block;
+  margin: auto;
+}
+h5.modal-title {
+  margin: auto;
+  text-align: center;
+}
+.btnCenter {
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+.imgCenter {
+  margin: auto;
+  display: block;
+  padding: 1em;
+}
+.size{
+    width: 20%;
+    padding: 10px;
+}
+.largetext{
+    font-size: 400%;
+    text-align: center;
+}
+.brands{
+    font-size: 120%;
+    color: lightgray;
+   margin: auto;
+}
+a{
+    color:white;
+}
