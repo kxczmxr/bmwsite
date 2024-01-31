@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
+  <head>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="bmw.ico" type="image/x-icon" />
     <link
       rel="stylesheet"
       href="bootstrap-4.6.2-dist/css/bootstrap-grid.min.css"
     />
     <link rel="stylesheet" href="bootstrap-4.6.2-dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="fontawesome-free-6.5.1-web/css/all.css">
+    <link rel="stylesheet" href="fontawesome-free-6.5.1-web/css/all.css" />
     <link rel="stylesheet" href="style.css" />
-    <title>SkateOrDie</title>
+    <title>BMW</title>
   </head>
   <body>
     <div class="contain">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <a class="navbar-brand" href="#">kxczmxr.</a>
         <button
           class="navbar-toggler"
@@ -35,10 +36,10 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Videos</a>
+              <a class="nav-link" href="#form">Form</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Photos</a>
+              <a class="nav-link" href="#history">History</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -132,7 +133,7 @@
               </button>
             </div>
           </div>
-          <div class="col"></div>
+          <div class="col" id="form"></div>
         </div>
       </div>
       <!-- SEKCJA DRUGA -->
@@ -274,7 +275,7 @@
           </div>
         </div>
       </div>
-      <div class="sectionLight">
+      <div class="sectionLight" id="history">
         <div class="row">
           <div class="col-sm-12">
             <div class="row">
@@ -327,28 +328,45 @@
           </div>
         </div>
       </div>
-      <footer class="footer bg-dark"> 
+      <footer class="footer bg-dark">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-12 col-lg-2">
-                    <img class="img-fluid size imgCenter" src="bmw2020.png" alt="">
-                </div>
-                <div class="col-sm-12 col-lg-8">
-                    <h1 class="largetext">BAYERISCHE MOTOREN WERKE</h1>
-                </div>
-                <div class="col-sm-12 col-lg-2">
-                    <div class="row">
-                        <div class="col-sm-12">
-                        <div class="imgCenter brands">
-                            <a href="https://facebook.com/bmw" target="_blank"><i class="fa-brands fa-facebook fa-spin fa-2xl"></i></a>
-                            <a href="http://instagram.com/bmw" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram fa-spin fa-2xl"></i></a>
-                            <a href="http://twitter.com/bmw" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-twitter fa-spin fa-2xl"></i></a>
-                            <a href="https://www.facebook.com/messages/t/22893372268" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook-messenger fa-spin fa-2xl"></i></a>
-                        </div>
-                    </div> 
-                    </div>
-                </div>
+          <div class="row">
+            <div class="col-sm-12 col-lg-2">
+              <img class="img-fluid size imgCenter" src="bmw2020.png" alt="" />
             </div>
+            <div class="col-sm-12 col-lg-8">
+              <h1 class="largetext">BAYERISCHE MOTOREN WERKE</h1>
+            </div>
+            <div class="col-sm-12 col-lg-2">
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="imgCenter brands">
+                    <a href="https://facebook.com/bmw" target="_blank"
+                      ><i class="fa-brands fa-facebook fa-2xl"></i
+                    ></a>
+                    <a
+                      href="http://instagram.com/bmw"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><i class="fa-brands fa-instagram fa-2xl"></i
+                    ></a>
+                    <a
+                      href="http://twitter.com/bmw"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><i class="fa-brands fa-twitter fa-2xl"></i
+                    ></a>
+                    <a
+                      href="https://www.facebook.com/messages/t/22893372268"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><i class="fa-brands fa-facebook-messenger fa-2xl"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </footer>
       <!-- BUTTON POP-UPS -->
@@ -374,16 +392,33 @@
               </button>
             </div>
             <div class="modal-body">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <p>In April 1917, following founder Karl Rapp's departure, Rapp Motorenwerke was renamed to Bayerische Motoren Werke (BMW).BMW's first product was the BMW IIIa aircraft engine. The IIIa engine was known for good fuel economy and high-altitude performance. The resulting orders for IIIa engines from the German military caused rapid expansion for BMW. The large orders received from the Luftstreitkrafte for the BMW IIIa engine were overwhelming for the small company, however government officials in the relevant ministries were able to give BMW extensive practical support for the rapid expansion and funding to build a new factory near BMW's existing workshops. The German Empire did not, however, wish to go on supporting BMW with loans and guarantees, and therefore urged the flotation of a public limited company.
-                        </p>
-                    </div>
-                    <div class="col-sm-12">
-                        <img class="img-fluid imgCenter" src="bmwenginge.jpeg" alt="">
-                    </div>
+              <div class="row">
+                <div class="col-sm-12">
+                  <p>
+                    In April 1917, following founder Karl Rapp's departure, Rapp
+                    Motorenwerke was renamed to Bayerische Motoren Werke
+                    (BMW).BMW's first product was the BMW IIIa aircraft engine.
+                    The IIIa engine was known for good fuel economy and
+                    high-altitude performance. The resulting orders for IIIa
+                    engines from the German military caused rapid expansion for
+                    BMW. The large orders received from the Luftstreitkrafte for
+                    the BMW IIIa engine were overwhelming for the small company,
+                    however government officials in the relevant ministries were
+                    able to give BMW extensive practical support for the rapid
+                    expansion and funding to build a new factory near BMW's
+                    existing workshops. The German Empire did not, however, wish
+                    to go on supporting BMW with loans and guarantees, and
+                    therefore urged the flotation of a public limited company.
+                  </p>
                 </div>
-                    
+                <div class="col-sm-12">
+                  <img
+                    class="img-fluid imgCenter"
+                    src="bmwenginge.jpeg"
+                    alt=""
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -411,14 +446,19 @@
               </button>
             </div>
             <div class="modal-body">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <p>The BMW 328 was a sports car offered by BMW from 1936 to 1940, with the body design credited to Peter Szymanowski, who became BMW chief of design after World War II (although technically the car was designed by Fritz Fiedler).</p>
-                    </div>
-                    <div class="col-sm-12">
-                        <img class="img-fluid imgCenter" src="bmwcar328.jpg" alt="">
-                    </div>
+              <div class="row">
+                <div class="col-sm-12">
+                  <p>
+                    The BMW 328 was a sports car offered by BMW from 1936 to
+                    1940, with the body design credited to Peter Szymanowski,
+                    who became BMW chief of design after World War II (although
+                    technically the car was designed by Fritz Fiedler).
+                  </p>
                 </div>
+                <div class="col-sm-12">
+                  <img class="img-fluid imgCenter" src="bmwcar328.jpg" alt="" />
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -446,14 +486,25 @@
               </button>
             </div>
             <div class="modal-body">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <p>In July 1998, BMW acquired a piece of automotive history. Following long negotiations, the company obtains the brand and naming rights for Rolls-Royce motor cars from Rolls-Royce plc. Rolls-Royce is held entirely by Volkswagen until the end of 2002, when BMW takes on full responsibility for Rolls-Royce Motor Cars, along with all rights. The new Rolls-Royce plant and a new company headquarters are built in Goodwood, in southern England. This is the sixth facility constructed since 1904, scheduled to manufacture newly developed Rolls-Royce models from the start of 2003.</p>
-                    </div>
-                    <div class="col-sm-12">
-                        <img class="img-fluid imgCenter" src="rr.jpeg" alt="">
-                    </div>
+              <div class="row">
+                <div class="col-sm-12">
+                  <p>
+                    In July 1998, BMW acquired a piece of automotive history.
+                    Following long negotiations, the company obtains the brand
+                    and naming rights for Rolls-Royce motor cars from
+                    Rolls-Royce plc. Rolls-Royce is held entirely by Volkswagen
+                    until the end of 2002, when BMW takes on full responsibility
+                    for Rolls-Royce Motor Cars, along with all rights. The new
+                    Rolls-Royce plant and a new company headquarters are built
+                    in Goodwood, in southern England. This is the sixth facility
+                    constructed since 1904, scheduled to manufacture newly
+                    developed Rolls-Royce models from the start of 2003.
+                  </p>
                 </div>
+                <div class="col-sm-12">
+                  <img class="img-fluid imgCenter" src="rr.jpeg" alt="" />
+                </div>
+              </div>
             </div>
           </div>
         </div>
